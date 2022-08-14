@@ -51,7 +51,7 @@ const Form = (props) => {
     return(
         <div className="w-full h-full">
             <div className="w-full p-3 shadow-md">
-                <input type='text' plac eholder="Name" className="bg-gray-600" onChange={e => updateName(e.target.value)}></input>
+                <input type='text' placeholder="Name" className="bg-gray-400 p-2 shadow-md rounded-sm" onChange={e => updateName(e.target.value)}></input>
             </div>
         {
             question.map(que => {
